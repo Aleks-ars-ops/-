@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<p>наведите курсор на этот текст, чтобы изменить цвет</p>
+  <a href="https://vua-lya.ru/catalog/womens-wear/">Наведите курсор на эту ссылку</a>
+  <div>DIV</div>
+ <style> /*Стили для страницы*/
+   
+   p{ /*Состояние до наведение курсором*/
+     color: #4ae87a;
+     text-decoration: underline;
+  
+   }
+  p:hover{
+  color:red;
+}
+
+   /*Состояние после наведения. состояние после наведения не прописываем  оно береться изначально*/
+  a:hover{
+    text-decoration: underline overline #ff3028;/*подчеркивание*/
+  }
+  div{ /*Состояние до навведение курсором*/
+    background-color: gray;
+    width: 100px; /*ширина*/
+    height: 100px; /*высота*/
+    transition: transform 0.4s; /*Время анимации плавный переход*/
+  }
+   div:hover{
+     transform: scale(1.2); /*Увеличение размера*/
+   }
+   
+ </style>
+<body>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
